@@ -1,0 +1,10 @@
+form {
+  max-width: 600px;
+  background-color: white;
+}
+body {
+  background-image: linear-gradient(to top right, #59bfde, #cc3df4);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
