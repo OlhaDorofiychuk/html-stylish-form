@@ -12,8 +12,59 @@
 <body>
   <form>
     <h1>Say Hello!</h1>
-    <label for="your_name">Your Name</label>
-    <input id="your_name" type="text" name="your_name" placeholder="Enter your name" minlength="2" maxlength="25">
+
+    <div>
+     <label for="your_name">Your Name</label>
+    </div>
+
+    <div>
+      <input id="your_name" type="text" name="your_name" placeholder="Enter your name" minlength="2" maxlength="25">
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+     </div>
+ 
+     <div>
+       <input id="email" type="email" name="email" placeholder="Enter your email address">
+     </div>
+
+     <div>
+      <label for="needed-services">Needed Services</label>
+     </div>
+ 
+     <div>
+       <select name="needed-services">
+          <option value="" disabled selected>Choose Services</option>
+          <option value="Cleaning">Cleaning</option>
+          <option value="Decoration">Decoration</option>
+          <option value="Moving">Moving</option>
+       </select>
+     </div>
+
+     <div>
+      <label for="budget">Budget</label>
+     </div>
+ 
+     <div>
+       <select name="budget">
+          <option value="" disabled selected>Select Budget</option>
+          <option value="0-99">0-99 GBP</option>
+          <option value="100-199">100-199 GBP</option>
+          <option value="200-499">200-499 GBP</option>
+          <option value="500-1000">500-1000 GBP</option>
+       </select>
+     </div>
+
+     <div>
+      <label for="message">Message</label>
+     </div>
+ 
+     <div>
+       <textarea id="message" type="text" name="message" placeholder="Your message here..." ></textarea>
+     </div>
+
+     <button type="submit">Submit &rarr;</button>
   </form>
 </body>
 
