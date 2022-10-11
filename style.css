@@ -2,11 +2,11 @@ form {
   max-width: 500px;
   background-color: white;
   padding: 50px;
-  margin-bottom: 20vh;
-  font-family: "Montserrat", sans-serif;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-image: linear-gradient(to top right, #59bfde, #cc3df4);
   height: 100vh;
   display: grid;
@@ -22,15 +22,21 @@ input::placeholder {
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.178);
   padding-bottom: 20px;
-  color: rgba(0, 0, 0, 0.363);
+  color: rgba(0, 0, 0, 0.400);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
+
 textarea::placeholder {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 0.400);
 }
+
 select {
   color: black;
   font-weight: 600;
 }
+
 form div {
   margin-bottom: 10px;
 }
@@ -39,7 +45,9 @@ label {
   font-size: 0.75em;
   color: rgba(0, 0, 0, 0.863);
   font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
+
 button {
   background-image: linear-gradient(to right, #cc3df4, #59bfde);
   width: 400px;
@@ -49,14 +57,13 @@ button {
   border: none;
   color: white;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  margin-top: 20px;
 }
+
 h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
-option,
-option:checked {
-  font-size: large;
-  font-family: "Montserrat", sans-serif;
-}
+
